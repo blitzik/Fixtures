@@ -1,0 +1,25 @@
+{
+  "name": "blitzik/fixtures",
+  "description": "Extension for finding & registering fixtures in project",
+  "keywords": ["nette", "fixtures"],
+  "license": ["MIT"],
+  "authors": [
+    {
+      "name": "Aleš Tichava",
+      "email": "ales.tichava@gmail.com"
+    }
+  ],
+
+  "require": {
+    "php": ">=7.1",
+    "nette/di": "^2.4",
+    "doctrine/data-fixtures": "^1.2"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "blitzik\\Fixtures\\": "src/"
+    }
+  }
+
+}
